@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1 Midterm Exam</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<img src="img/figma-logo-vector.png" alt="">
+    	<img src="img/Figma Design.png" alt="">
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="font"><a href="#">Home</a></li>
+      <li class="font"><a href="#">About</a></li>
+      <li class="font"><a href="#">Contact us</a></li>
+      <li class="font"><a href="#">Team</a></li>ss
+    </ul>
+  </div>
+</nav>
+<div id="all">
+	<div>
+		<ul id="align">
+		<li class="h1size"><h1>Hello,</h1></li>
+		<li class="h1size"><h1>I'm Bekarys</h1></li>
+		<li id="Frontend">Frontend developer</li>
+	</ul>
+
+		<span class="margin-left"><button type="button" class="btn btn-success">Hire me</button> </span>
+		<span class="margin-left margin"><button type="button" class="btn btn-success"><a id="colortext" href="img/Резюме_в2.doc">Download CV</a></button></span>
+	</div>
+	<div id="all2">
+		<div>
+			<figure>
+		<img class="img-circle anime" src="img/CV.jpeg" alt="CV photo">
+	</figure>
+ 		</div>
+
+ 		<div class="logo">
+ 			<a id="ins" href="https://www.instagram.com/bbekkarys/"><img src="img/Instagram.png" alt="logo"></a>
+ 			<a id="meta" href="https://ru-ru.facebook.com/"><img src="img/Facebook.png" alt="logo"></a>
+ 			<a id="twit" href="https://twitter.com/?lang=ru"><img src="img/Twitter.png" alt="logo"></a>
+ 			<a id="yt" href="https://www.youtube.com/"><img src="img/Youtube.png" alt="logo"></a>
+ 		</div>
+ 		</div>
+</div>
+<footer>
+	<a href=""><h1 class="roll">Thanks for attention</h1></a>
+</footer>
+
+<script>
+
+    $(document).ready(function() {
+
+   function repeatAnimation() {
+      var box = $("#ins").animate({
+      width: "70px",
+      height: "70px"
+    },1000);
+      box.each(function(index) {
+         $(this).delay(index * 800).animate({
+      width: "65px",
+      height: "65px"
+    },1000);
+      });
+      box.promise().then(function() {
+         setTimeout(repeatAnimation, 500)
+      })
+   };
+   repeatAnimation()
+});
+        $(document).ready(function() {
+
+   function repeatAnimation() {
+      var box = $("#yt").animate({
+      width: "70px",
+      height: "70px"
+    },1000);
+      box.each(function(index) {
+         $(this).delay(index * 800).animate({
+      width: "65px",
+      height: "65px"
+    },1000);
+      });
+      box.promise().then(function() {
+         setTimeout(repeatAnimation, 500)
+      })
+   };
+   repeatAnimation()
+});   
+ $(document).ready(function() {
+
+   function repeatAnimation() {
+      var box = $("#meta").animate({
+      width: "70px",
+      height: "70px"
+    },1000);
+      box.each(function(index) {
+         $(this).delay(index * 800).animate({
+      width: "65px",
+      height: "65px"
+    },1000);
+      });
+      box.promise().then(function() {
+         setTimeout(repeatAnimation, 500)
+      })
+   };
+   repeatAnimation()
+});    
+$(document).ready(function() {
+
+   function repeatAnimation() {
+      var box = $("#twit").animate({
+      width: "70px",
+      height: "70px"
+    },1000);
+      box.each(function(index) {
+         $(this).delay(index * 800).animate({
+      width: "65px",
+      height: "65px"
+    },1000);
+      });
+      box.promise().then(function() {
+         setTimeout(repeatAnimation, 500)
+      })
+   };
+   repeatAnimation()
+});
+</script>
+</body>
+</html>

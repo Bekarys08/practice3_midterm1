@@ -1,0 +1,98 @@
+body{
+	background-color: #FFDD55;
+}
+.font{
+	font-size: 25px;
+}
+.h1size h1{
+	font-weight: 800
+}
+#frontend{
+	font-size: 20px;
+	color: #474A57;
+}
+#align{
+	list-style-type: none;
+	margin-top: 400px;
+	margin-left: 100px;
+}
+.margin-left{
+	margin-left: 140px;
+
+}
+.margin{
+	margin-left: 30px;
+}
+.img-circle {
+	border: 5px solid black;
+	width: 450px;
+	height: 600px;
+	float: right;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	margin-right: 200px;
+}
+#all{
+	display: flex;
+	justify-content: space-between;
+}
+#all2{
+	display:flex;
+	justify-content: space-between; 
+}
+.logo img{
+	display: block;
+	width: 70%;
+	margin-top: 20px;
+}
+.logo{
+	margin-top: 200px;
+}
+footer{
+	display: flex;
+	background: black;
+	color: white;
+	justify-content: center;
+}
+footer h1{
+	font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+footer h1{
+	text-decoration: none;
+}
+footer h1:visited{
+	color: #FFDD55
+}
+footer h1:hover{
+	color: #FFDD55;
+}
+#colortext{
+	color: white;
+	text-decoration: none;
+}
+.roll{
+
+	margin-left: 110px;
+	animation-duration: 5s;
+    animation-name: slidein;
+    
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    margin-right: 0%;
+  }
+  to {
+    margin-left: 0%;
+    margin-right: 100%;
+    
+  }
+}
+
+
+
+
+>>>>
+
